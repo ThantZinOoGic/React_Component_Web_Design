@@ -1,0 +1,7 @@
+.item:hover {
+        transition : 2s;
+        padding-top: 5px;
+        background: white;
+        border-radius: 5px;
+        border-right: 5px blue solid;
+}

@@ -1,18 +1,17 @@
 import React from 'react';
-import profile from './images/profile.jpg'
 
-export default function Profile() {
+export default function Profile({picture, name, para}) {
   return (
     <div className='row align-items-start'>
         <div className='col-2'>
-            <img src={profile} style={{"width":'50px', "height":'50px'}} className='rounded-circle'/>
+            <img src={picture} style={{"width":'50px', "height":'50px'}} className='rounded-circle'/>
         </div>
         <div className='col-7'>
             <h6>
-                James Anderson
+                {name}
             </h6>
             <p className='fw-light'>
-                Facebook, Product Lead
+                {para}
             </p>
         </div>
     </div>

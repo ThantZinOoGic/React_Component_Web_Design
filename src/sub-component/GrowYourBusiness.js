@@ -1,9 +1,9 @@
 import React from 'react';
-import imageOne from './images/1.svg';
+import imageOne from './../images/1.svg';
 
-export default function Grow() {
+export default function GrowYourBusiness() {
   return (
-    <div className='row'>
+    <div className='row item' data-aos="fade-left" data-aos-delay="400">
         <div className='col-2'>
             <img src={imageOne} className='bg-info rounded p-3 fs-lg'/>
         </div>

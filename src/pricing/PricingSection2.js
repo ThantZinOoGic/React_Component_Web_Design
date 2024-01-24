@@ -1,20 +1,20 @@
-import React from 'react'
-import imageOne from './images/1.svg';
-import imageTwo from './images/2.svg';
-import imageThree from './images/3.svg';
-import imageFour from './images/4.svg';
+import React from 'react';
+import imageOne from './../images/1.svg';
+import imageTwo from './../images/2.svg';
+import imageThree from './../images/3.svg';
+import imageFour from './../images/4.svg';
 
-export default function Pricing2() {
+export default function PricingSection2() {
   return (
     <div className='container vh-100'>
         <div className='row align-items-center'>
-        <div className='mt-5 col-12'>
+        <div className='mt-0 col-12'  data-aos="fade-up" data-aos-delay="300">
             <h2 className='text-center my-3'>Advantage of using our products</h2>
             <p className='text-center fw-light'>Far from the countries Vokalia and Consonantia</p>
         </div>
         <div className='row mt-5'>
             {/* Grow Business Cart  */}
-            <div className='col-6 mb-4 text-right'>
+            <div className='col-md-6 mb-4 text-right' data-aos="fade-up" data-aos-delay="400">
                 <div className='row'>
                     <div className='col-2'>
                         <img src={imageOne} className='bg-info rounded p-3 fs-lg'/>
@@ -28,7 +28,7 @@ export default function Pricing2() {
                 
             </div>
             {/* Bulid Product Cart  */}
-            <div className='col-6 mb-4 text-right'>
+            <div className='col-md-6 mb-4 text-right' data-aos="fade-up" data-aos-delay="600">
                 <div className='row'>
                     <div className='col-2'>
                         <img src={imageTwo} className='bg-warning rounded p-3 fs-lg'/>
@@ -41,7 +41,7 @@ export default function Pricing2() {
                 </div>  
             </div>
             {/* Success Every Day */}
-            <div className='col-6 mb-4 text-right'>
+            <div className='col-md-6 mb-4 text-right' data-aos="fade-up" data-aos-delay="800">
                 <div className='row'>
                     <div className='col-2'>
                         <img src={imageThree} className='bg-danger rounded p-3 fs-lg'/>
@@ -54,7 +54,7 @@ export default function Pricing2() {
                 </div>  
             </div>
             {/* Bring Ideas to Life */}
-            <div className='col-6 mb-4 text-right'>
+            <div className='col-md-6 mb-4 text-right' data-aos="fade-up" data-aos-delay="1000">
                 <div className='row'>
                     <div className='col-2'>
                         <img src={imageFour} className='bg-primary rounded p-3 fs-lg'/>

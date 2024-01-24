@@ -1,14 +1,14 @@
 import React from 'react';
-import imageFour from './images/4.svg';
+import ImageTwo from './../images/2.svg';
 
-export default function Build() {
+export default function BuildProduct() {
   return (
-    <div className='row'>
+    <div className='row item'  data-aos="fade-left" data-aos-delay="500">
         <div className='col-2'>
-            <img src={imageFour} className='bg-primary rounded p-3 fs-lg'/>
+            <img src={ImageTwo} className='bg-warning rounded p-3 fs-lg'/>
         </div>
         <div className='col-10'>
-            <h5>Bring Ideas to Life</h5>
+            <h5>Build Products</h5>
             <p className='fw-light'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
         </div>
     </div>
