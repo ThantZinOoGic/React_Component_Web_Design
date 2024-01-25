@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function PricingCard({title, price, duration}) {
   return (
-        <div className='col-md-3 mb-3'  data-aos="fade-up" data-aos-delay={duration}>
+        <div className='col-md-4 col-lg-3 mb-3'  data-aos="fade-up" data-aos-once="true" data-aos-delay={duration}>
             <div className='card rounded'>
               <div className='card-body'>
                 <div>

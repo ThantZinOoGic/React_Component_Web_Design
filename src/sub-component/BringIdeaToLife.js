@@ -3,7 +3,7 @@ import imageFour from './../images/4.svg';
 
 export default function BuildIdeaToLife() {
   return (
-    <div className='row item'  data-aos="fade-left" data-aos-delay="700">
+    <div className='row item'  data-aos="fade-left" data-aos-once="true" data-aos-delay="700">
         <div className='col-2'>
             <img src={imageFour} className='bg-primary rounded p-3 fs-lg'/>
         </div>

@@ -1,6 +1,4 @@
 import React from 'react';
-import './style.css';
-import CustromerFeedbackCard from './CustromerFeedbackCard';
 import image from './../images/feature.webp'
 
 export default function FeatureCarousel() {
