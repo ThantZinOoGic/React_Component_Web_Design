@@ -10,9 +10,9 @@ export default function FeatureSection2() {
     <div className="container-fluid bg">
       <div className="">
         <div className="container">
-          <div className="row  vh-100 justify-content-between align-items-center">
+          <div className="row  min-vh-100 justify-content-between align-items-center">
             {/* item catds */}
-            <div className="col-lg-5 order-lg-last">
+            <div className="col-lg-5 order-lg-last mt-4">
               <div className="">
                 <Grow />
                 <Build />

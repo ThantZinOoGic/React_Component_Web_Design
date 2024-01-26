@@ -6,15 +6,15 @@ import profile1 from "./../images/profile.jpg";
 export default function FeatureSection1() {
   return (
     <div className="container" id="feature">
-      <div className="row vh-100">
+      <div className="row min-vh-100">
         {/* paragraph */}
         <div className="col-lg-5">
           <div data-aos="fade-up" data-aos-once="true" data-aos-delay="300">
             <p className="text-primary">DIGITAL SERVICES</p>
-            <h1 className="fw-bold">
+            <h2 className="fw-bold">
               Selling Digital
               <br /> Services
-            </h1>
+            </h2>
           </div>
           <div data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
             <p className="fw-light lh-lg">
