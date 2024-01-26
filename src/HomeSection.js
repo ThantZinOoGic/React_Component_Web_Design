@@ -37,7 +37,7 @@ export default function () {
         <div
           className="col-lg-6"
           data-aos-once="true"
-          data-aos="fade-right"
+          data-aos="fade-up"
           data-aos-delay="700"
         >
           <img src={homeImage} />
