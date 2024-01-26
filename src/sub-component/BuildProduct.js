@@ -3,7 +3,7 @@ import ImageTwo from './../images/2.svg';
 
 export default function BuildProduct() {
   return (
-    <div className='row item'  data-aos="fade-left" data-aos-once="true" data-aos-delay="500">
+    <div className='row item'  data-aos="fade-up" data-aos-once="true" data-aos-delay="500">
         <div className='col-2'>
             <img src={ImageTwo} className='bg-warning rounded p-3 fs-lg'/>
         </div>

@@ -67,7 +67,7 @@ export default function Feedback() {
         <div className="col-lg-8">
           <div
             className="row"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-once="true"
             data-aos-delay="300"
           >

@@ -3,7 +3,7 @@ import imageOne from './../images/1.svg';
 
 export default function GrowYourBusiness() {
   return (
-    <div className='row item' data-aos="fade-left" data-aos-once="true" data-aos-delay="400">
+    <div className='row item' data-aos="fade-up" data-aos-once="true" data-aos-delay="400">
         <div className='col-2'>
             <img src={imageOne} className='bg-info rounded p-3 fs-lg'/>
         </div>

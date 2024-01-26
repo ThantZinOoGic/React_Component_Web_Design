@@ -3,7 +3,7 @@ import imageThree from './../images/3.svg';
 
 export default function SuccessEveryDay() {
   return (
-    <div className='row item'  data-aos="fade-left" data-aos-once="true" data-aos-delay="600">
+    <div className='row item'  data-aos="fade-up" data-aos-once="true" data-aos-delay="600">
         <div className='col-2'>
             <img src={imageThree} className='bg-danger rounded p-3 fs-lg'/>
         </div>
