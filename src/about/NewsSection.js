@@ -1,6 +1,6 @@
 import React from "react";
 import NewsCard from "../sub-component/NewsCard";
-export default function NewsSectiom() {
+export default function NewsSection() {
   return (
     <div className="container-fluid bg">
       <div className="container">

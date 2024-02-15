@@ -8,7 +8,7 @@ import PriceingSectionOne from "./pricing/PriceingSection1";
 import PricingSectiontwo from "./pricing/PricingSection2";
 import Feedback from "./about/Feedback";
 import About from "./about/About";
-import NewsSectiom from "./about/NewsSection";
+import NewsSection from "./about/NewsSection";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
@@ -31,7 +31,7 @@ function App() {
         <PricingSectiontwo />
         <Feedback />
         <About />
-        <NewsSectiom />
+        <NewsSection />
         <Contact />
         <Footer />
       </div>

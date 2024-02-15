@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavSection() {
   return (
@@ -7,14 +8,14 @@ export default function NavSection() {
         <div className="row my-2">
           <nav className="navbar navbar-expand-lg" id="navbar">
             <div className="container">
-              <a className="navbar-brand fs-3 fw-bolder" href="#">
+              <Link className="navbar-brand fs-3 fw-bolder" to="/">
                 Lanuch
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
+                data-bs-target="/navbarSupportedContent"
                 aria-controls="navbarSupportedContent"
                 aria-expanded="false"
                 aria-label="Toggle navigation"
@@ -27,15 +28,15 @@ export default function NavSection() {
               >
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                   <li className="nav-item">
-                    <a className="nav-link" aria-current="page" href="#">
+                    <Link className="nav-link" aria-current="page" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
                   {/* dropdown menu */}
                   <li className="nav-item dropdown">
                     <a
                       className="nav-link dropdown-toggle"
-                      href="#"
+                      to="/"
                       role="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -44,58 +45,58 @@ export default function NavSection() {
                     </a>
                     <ul className="dropdown-menu">
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           Action
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           Another action
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <hr className="dropdown-divider" />
                       </li>
                       <li>
-                        <a className="dropdown-item" href="#">
+                        <Link className="dropdown-item" to="/">
                           Something else here
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </li>
                   {/* other menu */}
                   <li className="nav-item">
-                    <a className="nav-link" href="#feature">
+                    <Link className="nav-link" to="/feature">
                       Feature
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#pricing">
+                    <Link className="nav-link" to="/price">
                       Pricing
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#about">
+                    <Link className="nav-link" to="/about">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#contact">
+                    <Link className="nav-link" to="/contact">
                       Contact
-                    </a>
+                    </Link>
                   </li>
                 </ul>
                 {/* signIn & register */}
                 <div className="d-flex">
                   <a
-                    href="#"
+                    to="/"
                     className="btn rounded-pill btn-outline-secondary"
                   >
                     Sign In
                   </a>
-                  <a href="#" className="btn rounded-pill btn-primary ms-3">
+                  <Link to="/" className="btn rounded-pill btn-primary ms-3">
                     Register
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
